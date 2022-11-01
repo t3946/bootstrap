@@ -75,7 +75,7 @@
   --bs-breakpoint-sm: 576px;
   --bs-breakpoint-md: 834px;
   --bs-breakpoint-lg: 992px;
-  --bs-breakpoint-xl: 1200px;
+  --bs-breakpoint-xl: 1340px;
   --bs-breakpoint-xxl: 1840px;
 }
 
@@ -110,9 +110,9 @@
     max-width: 960px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1340px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1140px;
+    max-width: 1280px;
   }
 }
 @media (min-width: 1840px) {
@@ -854,7 +854,7 @@
     --bs-gutter-y: 3rem;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1340px) {
   .col-xl {
     flex: 1 0 0%;
   }
@@ -3174,7 +3174,7 @@
     padding-left: 3rem !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1340px) {
   .d-xl-inline {
     display: inline !important;
   }
