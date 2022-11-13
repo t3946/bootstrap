@@ -73,7 +73,7 @@
   --bs-highlight-bg: #fff3cd;
   --bs-breakpoint-xs: 0;
   --bs-breakpoint-sm: 576px;
-  --bs-breakpoint-md: 834px;
+  --bs-breakpoint-md: 768px;
   --bs-breakpoint-lg: 992px;
   --bs-breakpoint-xl: 1340px;
   --bs-breakpoint-xxl: 1840px;
@@ -100,9 +100,9 @@
     max-width: 540px;
   }
 }
-@media (min-width: 834px) {
+@media (min-width: 768px) {
   .container-md, .container-sm, .container {
-    max-width: 754px;
+    max-width: 720px;
   }
 }
 @media (min-width: 992px) {
@@ -516,7 +516,7 @@
     --bs-gutter-y: 3rem;
   }
 }
-@media (min-width: 834px) {
+@media (min-width: 768px) {
   .col-md {
     flex: 1 0 0%;
   }
@@ -2254,7 +2254,7 @@
     padding-left: 3rem !important;
   }
 }
-@media (min-width: 834px) {
+@media (min-width: 768px) {
   .d-md-inline {
     display: inline !important;
   }
